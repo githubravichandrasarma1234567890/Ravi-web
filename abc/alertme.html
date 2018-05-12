@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AlertMe</title>
+	<script>
+		function fun()
+		{
+			var a=document.getElementById('input').value;
+			alert(a);
+			document.getElementById("para").innerText=a;
+			
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="input">
+	<input type="button" onclick="fun()" id="btn" value="EVENT">
+	<p id="para">This is a paragraph</p>
+</body>
+</html>
